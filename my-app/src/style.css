@@ -1,0 +1,117 @@
+.credit-card{
+    
+    background: url(credit.jpg) no-repeat ;
+    color: white;
+    border-radius: 10px;
+    padding:0 10px;
+    margin-top: 100px;
+    height: 350px;
+    width: 500px;
+    border: 0;
+    background-size: cover;
+    
+    
+    }
+    
+    .credit-card-title{
+    
+    text-align: right;
+    
+    }
+    .credit-card-content{
+    
+      display: flex;
+    
+    }
+    .credit-card-chip{
+    
+    background-image: url(chip1.PNG) ;
+    height: 55px;
+    width: 80px;
+    background-repeat: no-repeat;
+    
+    
+    }
+    .credit-card-number{
+    
+      color: burlywood;
+      background-color: rgba(186, 175,125, 0.2);
+    
+    
+    
+    }
+    .credit-card-valid-thru{
+    
+    text-align: right;
+    
+    }
+    .credit-card-hold-name{
+    
+    padding: 0;
+    font-size: 1.2em;
+    
+    }
+    .credit-card-logo{
+    
+    width: 80px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+   
+    }
+    .credit-card-logo img{
+    
+    width: 100%;
+    padding-left: 350px;
+    margin: -50px;
+    padding-bottom: 50px;
+   
+    }
+    .credit-card.text{
+    
+    flex: 1;
+    padding-right: 10px;
+    
+    }
+
+
+    
+
+    .row-credit{
+
+   width: 400px;
+   padding: 50px;
+   margin:50px;
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    input{
+
+      padding:3px;
+      border:1px solid #F5C5C5;
+      border-radius:5px;
+      width:200px;
+      box-shadow:1px 1px 2px #C0C0C0 inset;
+      /* text-transform: uppercase; */
+
+    }
+
+    label {
+      margin-top:10px;
+      display:block;
+      }
+     
+      .row-input{
+
+           display: flex;
+          
+
+      }
+
+      .row{
+
+        display: flex;
+        justify-content: space-around;
+      }
